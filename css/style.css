@@ -16,6 +16,9 @@ html,body{height:100%;}
 #hamburger {
 	display: none;
 }
+.top-row-mobile {
+	display: none;
+}
 /*------------------------- */
 .logo {
 	float:left;
@@ -40,7 +43,11 @@ html,body{height:100%;}
     width:160px;
 }
 .media-mobile {
-	display: hidden;
+	display: none;
+}
+
+.mobile-content {
+	display: none;
 }
 /*----- txt,links,lines,titles -----*/
 a {
@@ -918,7 +925,7 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		background: none;
 		overflow-x: hidden;
 		border: 2px solid red;
-		width: 300px;
+		width: 585px;
 	}
 
 	.main {
@@ -928,9 +935,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 
 	.top-row {
-		width: 200px;
-		margin-left: auto;
-		margin-right: auto;
+		display: none;
+	}
+	.top-row-mobile {
+		display: inline-block;
 	}
 
 	.logo {
@@ -982,47 +990,80 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 
 	.media-mobile {
-		margin-bottom: 150px;
-		margin-left: 50%;
+		margin-bottom: 100%;
+		margin-left: 300px;
+		display: inline-block;
+		margin-top: -200px;
+	}
+	.mobile-content {
+		margin-top: 0px;
+		margin-right: 1px;
+		display: block;
+	}
+	.mobile-content img{
+		width: 500px;
+		margin-left: 25px;
+		margin-bottom: 20px;
 	}
 	.smoker {
+		margin-top: 20px
 	}
 
 }
 
 @media only screen and (max-device-width: 525px) {
-	.top-row {
-		width: 250px;
-	}
 	.media-mobile {
-		margin-left: 40%;
+		margin-left: 300px;
+	}
+
+	.mobile-content img{
+		width: 475px;
+		margin-left: 20px;
 	}
 }
 
-@media only screen and (max-device-width: 481px) {
-	.top-row {
-		width: 300px;
-	}
+@media only screen and (max-device-width: 485px) {
 	.media-mobile {
-		margin-left: 30%;
+		margin-left: 285px;
+	}
+
+	.mobile-content img{
+		width: 435px;
+		margin-left: 15px;
 	}
 }
 
+@media only screen and (max-device-width: 470px) {
+	.media-mobile {
+		display: block;
+		margin-top: auto;
+		margin-left: 135px;
+	}
+}
 @media only screen and (max-device-width: 415px) {
-	.top-row {
-		width: 360px;
-	}
+
 	.media-mobile {
-		margin-bottom: 150px;
-		margin-left: 25%;
+		display: block;
+		margin-top: auto;
+		margin-left: 110px;
+	}
+	.mobile-content img{
+		width: 365px;
 	}
 }
 
 @media only screen and (max-device-width: 385px) {
-	.top-row {
-		width: 375px;
+
+	.top-row img {
+		width: 350px;
 	}
+
 	.media-mobile {
-		margin-left: 20%;
+		display: block;
+		margin-top: auto;
+		margin-left: 85px;
+	}
+	.mobile-content img{
+		width: 335px;
 	}
 }
