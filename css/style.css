@@ -39,6 +39,9 @@ html,body{height:100%;}
     position: relative;
     width:160px;
 }
+.media-mobile {
+	display: hidden;
+}
 /*----- txt,links,lines,titles -----*/
 a {
 	outline:none;
