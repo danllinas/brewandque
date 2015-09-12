@@ -930,6 +930,7 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 	.hamburger {
 		display: inline;
+		width: 300px;
 		top: 1px;
 		right: 1px;
 		position: fixed;
