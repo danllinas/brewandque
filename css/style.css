@@ -962,7 +962,7 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		display: none;
 	}
 	.media {
-		display: hidden;
+		display: none;
 	}
 }
 
