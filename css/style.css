@@ -909,12 +909,14 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		overflow-x: hidden;
 	}
+
 	.container_12 {
 		display: none;
 	}
+
 	.main-bg {
 		background: none;
-		overflow: hidden;
+		overflow-x: hidden;
 		border: 2px solid red;
 	}
 
@@ -922,14 +924,12 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		margin:0;
 		width: 375px;
 		position:relative;
-		border: 2px solid red;
 	}
 
 	.top-row {
 		width: 200px;
 		margin-left: auto;
 		margin-right: auto;
-		border: 2px solid red;
 	}
 
 	.logo {
@@ -937,7 +937,6 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		margin-top: 0;
 		width: 386px;
 		position: absolute;
-		border: 2px solid red;
 	}
 
 	.hamburger {
@@ -946,7 +945,6 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		right: 1px;
 		position: fixed;
 		z-index: 1000;
-		border: 2px solid red;
 	}
 
 	#burger {
@@ -985,10 +983,8 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.media-mobile {
 		margin-bottom: 150px;
 		margin-left: 50%;
-		border: 2px solid red;
 	}
 	.smoker {
-		border: 2px solid red;
 	}
 
 }
