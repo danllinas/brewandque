@@ -909,9 +909,6 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		overflow-x: hidden;
 	}
-	body {
-		overflow-x: hidden;
-	}
 	.main-bg {
 		background: none;
 	}
@@ -933,9 +930,8 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 	.hamburger {
 		display: inline;
-		width: 300px;
 		top: 1px;
-		left: 597px;
+		right: 1px;
 		position: fixed;
 		z-index: 1000;
 	}
