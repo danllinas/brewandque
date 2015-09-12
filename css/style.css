@@ -909,25 +909,31 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		overflow-x: hidden;
 	}
+
 	.main-bg {
 		background: none;
 	}
+
 	.main {
 		margin:0;
 		width: 375px;
 		position:relative;
+		overflow-x: hidden;
 	}
+
 	.top-row {
 		width: 200px;
 		margin-left: auto;
 		margin-right: auto;
 	}
+
 	.logo {
 		margin-left: 0px;
 		margin-top: 0;
 		width: 386px;
 		position: absolute;
 	}
+
 	.hamburger {
 		display: inline;
 		top: 1px;
@@ -935,6 +941,7 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		position: fixed;
 		z-index: 1000;
 	}
+
 	#burger {
 		display: inline;
 		position: fixed;
@@ -944,14 +951,14 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 	.hamburger ul {
 		display: none;
-	}
-	.main-row {
-		display: none;
-	}
-	.hamburger ul {
 		margin-top: 15px;
 		color: white;
 	}
+
+	.main-row {
+		display: none;
+	}
+
 	.hamburger a {
 		text-decoration: none;
 		color: white;
@@ -959,16 +966,20 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		font-size: 15px;
 		line-height: 170%;
 	}
+
 	.flexslider {
 		display: none;
 	}
+
 	.media {
 		display: none;
 	}
+
 	.media-mobile {
 		margin-bottom: 150px;
 		margin-left: 50%;
 	}
+
 }
 
 @media only screen and (max-device-width: 525px) {
