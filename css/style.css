@@ -1020,6 +1020,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 475px;
 		margin-left: 20px;
 	}
+
+	.main-bg {
+		width: 500px;
+	}
 }
 
 @media only screen and (max-device-width: 485px) {
@@ -1031,6 +1035,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 435px;
 		margin-left: 15px;
 	}
+	.main-bg {
+		width: 470px;
+	}
 }
 
 @media only screen and (max-device-width: 470px) {
@@ -1038,6 +1045,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		display: block;
 		margin-top: auto;
 		margin-left: 135px;
+	}
+	.main-bg {
+		width: 450px;
 	}
 }
 @media only screen and (max-device-width: 415px) {
@@ -1049,6 +1059,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 	.mobile-content img{
 		width: 365px;
+	}
+	.main-bg {
+		width: 400px;
 	}
 }
 
@@ -1065,5 +1078,8 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 	.mobile-content img{
 		width: 335px;
+	}
+	.main-bg {
+		width: 360px;
 	}
 }
