@@ -917,13 +917,13 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 
 /* Mobile Design-------------------------------------------- */
 @media only screen and (max-width: 600px) {
+	html {
+		overflow-x: hidden;
+		width: 600px;
+	}
 
 	.desktop {
 		display: none;
-	}
-
-	html {
-		overflow-x: hidden;
 	}
 
 	.mobile {
@@ -976,7 +976,7 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 
 	.media-mobile {
-		margin-bottom: 100%;
+		margin-bottom: 50%;
 		margin-left: 300px;
 		display: inline-block;
 	}
@@ -1000,6 +1000,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 575px) {
+	html {
+		overflow-x: hidden;
+		width: 575px;
+	}
+
 	.mobile-content img{
 		width: 550px;
 		margin-left: 5px;
@@ -1008,6 +1013,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 525px) {
+	html {
+		overflow-x: hidden;
+		width: 525px;
+	}
+
 	.top-row-mobile img {
 		margin-left: 75px;
 	}
@@ -1023,6 +1033,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 500px) {
+	html {
+		overflow-x: hidden;
+		width: 500px;
+	}
 	.top-row-mobile img {
 		margin-left: 65px;
 	}
@@ -1033,6 +1047,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 485px) {
+	html {
+		overflow-x: hidden;
+		width: 485px;
+	}
 	.top-row-mobile img {
 		margin-left: 55px;
 	}
@@ -1043,6 +1061,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 470px) {
+	html {
+		overflow-x: hidden;
+		width: 470px;
+	}
 	.top-row-mobile img {
 		margin-left: 45px;
 	}
@@ -1054,8 +1076,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		margin-left: 3px;
 	}
 }
-
 @media only screen and (max-width: 455px) {
+	html {
+		overflow-x: hidden;
+		width: 455px;
+	}
 	.top-row-mobile img {
 		margin-left: 35px;
 	}
@@ -1067,8 +1092,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		margin-left: 3px;
 	}
 }
-
 @media only screen and (max-width: 440px) {
+	html {
+		overflow-x: hidden;
+		width: 440px;
+	}
 	.top-row-mobile img {
 		margin-left: 25px;
 	}
@@ -1080,8 +1108,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		margin-left: 3px;
 	}
 }
-
 @media only screen and (max-width: 430px) {
+	html {
+		overflow-x: hidden;
+		width: 430px;
+	}
 	.top-row-mobile img {
 		margin-left: 20px;
 	}
@@ -1093,8 +1124,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		margin-left: 3px;
 	}
 }
-
 @media only screen and (max-width: 415px) {
+	html {
+		overflow-x: hidden;
+		width: 415px;
+	}
 	.top-row-mobile img {
 		margin-left: 15px;
 	}
@@ -1109,13 +1143,16 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		left: 15px;
 	}
 }
-
 @media only screen and (max-width: 400px) {
+	html {
+		overflow-x: hidden;
+		width: 400px;
+	}
 	.top-row-mobile img {
 		margin-left: 8px;
 	}
 	.media-mobile {
-		margin-left: 220px;
+		margin-left: 215px;
 	}
 	.mobile-content img{
 		width: 395px;
@@ -1125,8 +1162,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		left: 15px;
 	}
 }
-
 @media only screen and (max-width: 385px) {
+	html {
+		overflow-x: hidden;
+		width: 385px;
+	}
 	.top-row-mobile img {
 		margin-left: 0px;
 	}
@@ -1141,8 +1181,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		left: 5px;
 	}
 }
-
 @media only screen and (max-width: 370px) {
+	html {
+		overflow-x: hidden;
+		width: 370px;
+	}
 	.top-row-mobile img {
 		width: 370px;
 	}
@@ -1158,8 +1201,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 175px;
 	}
 }
-
 @media only screen and (max-width: 360px) {
+	html {
+		overflow-x: hidden;
+		width: 360px;
+	}
 	.top-row-mobile img {
 		width: 360px;
 	}
@@ -1175,8 +1221,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 175px;
 	}
 }
-
 @media only screen and (max-width: 350px) {
+	html {
+		overflow-x: hidden;
+		width: 350px;
+	}
 	.top-row-mobile img {
 		width: 350px;
 	}
