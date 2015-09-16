@@ -14,17 +14,6 @@ html,body{height:100%;}
 	display: none;
 }
 
-/*.hamburger {
-	display: none;
-}
-#hamburger {
-	display: none;
-}
-.top-row-mobile {
-	display: none;
-}*/
-/*------------------------- */
-
 .logo {
 	float:left;
     margin-left:275px;margin-top:30px;
@@ -1026,7 +1015,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.story-text a {
 		color: white;
 	}
-
+	img.purchase {
+		width: 300px;
+		margin-left: 25%;
+	}
 }
 
 @media only screen and (max-width: 575px) {
@@ -1047,6 +1039,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 	.story-text {
 		width: 530px;
+	}
+	img.purchase {
+		width: 300px;
+		margin-left: 25%;
 	}
 }
 
@@ -1076,6 +1072,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.story-text {
 		width: 510px;
 	}
+	img.purchase {
+		width: 300px;
+		margin-left: 20%;
+	}
 }
 
 @media only screen and (max-width: 500px) {
@@ -1099,6 +1099,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile-content ul {
 		margin-left: 13px;
 	}
+	img.purchase {
+		width: 300px;
+		margin-left: 17%;
+	}
 }
 
 @media only screen and (max-width: 485px) {
@@ -1121,6 +1125,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 	.mobile-content ul {
 		margin-left: 13px;
+	}
+	img.purchase {
+		width: 300px;
+		margin-left: 17%;
 	}
 }
 
@@ -1148,6 +1156,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile-content ul {
 		margin-left: 13px;
 	}
+	img.purchase {
+		width: 300px;
+		margin-left: 17%;
+	}
 }
 @media only screen and (max-width: 455px) {
 	html {
@@ -1172,6 +1184,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 	.mobile-content ul {
 		margin-left: 5px;
+	}
+	img.purchase {
+		width: 250px;
+		margin-left: 20%;
 	}
 }
 @media only screen and (max-width: 440px) {
@@ -1198,6 +1214,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile-content ul {
 		margin-left: 5px;
 	}
+	img.purchase {
+		width: 250px;
+		margin-left: 20%;
+	}
 }
 @media only screen and (max-width: 430px) {
 	html {
@@ -1222,6 +1242,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 	.mobile-content ul {
 		margin-left: 4px;
+	}
+	img.purchase {
+		width: 250px;
+		margin-left: 20%;
 	}
 }
 @media only screen and (max-width: 415px) {
@@ -1251,6 +1275,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile-content ul {
 		margin-left: 2px;
 	}
+	img.purchase {
+		width: 250px;
+		margin-left: 20%;
+	}
 }
 @media only screen and (max-width: 400px) {
 	html {
@@ -1278,6 +1306,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 	.mobile-content ul {
 		margin-left: 2px;
+	}
+	img.purchase {
+		width: 250px;
+		margin-left: 20%;
 	}
 }
 @media only screen and (max-width: 385px) {
@@ -1307,6 +1339,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile-content ul {
 		display: block;
 		margin-left: 75px;
+	}
+	img.purchase {
+		width: 250px;
+		margin-left: 19%;
 	}
 }
 @media only screen and (max-width: 370px) {
@@ -1339,6 +1375,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		display: block;
 		margin-left: 75px;
 	}
+	img.purchase {
+		width: 200px;
+		margin-left: 25%;
+	}
 }
 @media only screen and (max-width: 360px) {
 	html {
@@ -1368,6 +1408,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile-content ul {
 		margin-left: 75px;
 	}
+	img.purchase {
+		width: 200px;
+		margin-left: 25%;
+	}
 }
 @media only screen and (max-width: 350px) {
 	html {
@@ -1396,5 +1440,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 	.mobile-content ul {
 		margin-left: 70px;
+	}
+	img.purchase {
+		width: 200px;
+		margin-left: 25%;
 	}
 }
